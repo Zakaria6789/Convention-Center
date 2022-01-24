@@ -1,3 +1,16 @@
+/*Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* Common Css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.small-p{
+    font-size: 15px;
+}
+
+
 /* our package */
 .our-package .wrapper{
     display: grid;
@@ -6,5 +19,7 @@
 }
 .our-package .table-3{
    transform: scale(1.2) translateY(-8%);
-   margin: 0 23px;}
+   margin: 0 23px;
+}
+
 
