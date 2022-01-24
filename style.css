@@ -1,12 +1,9 @@
 /*Poppins Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 /* Fix Right Space */
 html, body{
     overflow-x: hidden;
 }
-
-
 /* Common Css */
 body{
     font-family: 'Poppins', sans-serif;
@@ -17,8 +14,6 @@ body{
 .heading-color{
     color: #0b0d17;
 }
-
-
 /* our package */
 .our-package .wrapper{
     display: grid;
@@ -29,10 +24,27 @@ body{
    transform: scale(1.2) translateY(-8%);
    margin: 0 23px;
 }
-
 /* Footer Section */
 .footer-bg{
     background-color: #0b0d17;
+}
+
+/* Responsive */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .navbar-brand{
+        font-size: 15px;
+    }
+    .our-package .wrapper{
+        grid-template-columns: 1fr;
+    }
+    .our-package .table-3{
+        transform: scale(1) translateY(0);
+        margin: 23px 0;
+     }
+     .carousel-item img{
+        min-height: 550px;
+        object-fit: cover;
+    }
 }
 
 
