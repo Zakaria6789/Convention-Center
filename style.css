@@ -1,6 +1,11 @@
 /*Poppins Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* Fix Right Space */
+html, body{
+    overflow-x: hidden;
+}
+
 
 /* Common Css */
 body{
@@ -8,6 +13,9 @@ body{
 }
 .small-p{
     font-size: 15px;
+}
+.heading-color{
+    color: #0b0d17;
 }
 
 
@@ -20,6 +28,11 @@ body{
 .our-package .table-3{
    transform: scale(1.2) translateY(-8%);
    margin: 0 23px;
+}
+
+/* Footer Section */
+.footer-bg{
+    background-color: #0b0d17;
 }
 
 
