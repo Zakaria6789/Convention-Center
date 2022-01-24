@@ -1,0 +1,10 @@
+/* our package */
+.our-package .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.2fr 1fr;
+    column-gap: 30px;
+}
+.our-package .table-3{
+   transform: scale(1.2) translateY(-8%);
+   margin: 0 23px;}
+
